@@ -6,10 +6,13 @@ From a combination of wanting to change career and the accountability I have to 
 
 
 ## Day 1 (14/03/2022)
-Today I took some time to look through th pkl files in the AlphaFold outputs to determine what was contained within them and how these could be plotted to enable a more efficient interpretation of the resulting protein structures.
+Today I took some time to look through th pkl files in the AlphaFold outputs to determine what was contained within them and how these could be plotted to enable a more efficient interpretation of the resulting protein structures.  
+(https://github.com/mplockhart/66days/blob/main/alphafold/EDA_AF_outputs.ipynb)
 
 ## Day 2 (15/03/2022)
-I moved back to my CodeCademy course where I was introduced to SciPy at the start of the Supervised Machine Learning module. It showed the manual methods of calculating different distances (Euclidean, Manhattan and Hamming) and how these were compared to using the module.
+I moved back to my CodeCademy course where I was introduced to SciPy at the start of the Supervised Machine Learning module. It showed the manual methods of calculating different distances (Euclidean, Manhattan and Hamming) and how these were compared to using the module.  
+(https://github.com/mplockhart/66days/blob/main/codecademy_learning/honeyproduction.csv)
 
 ## Day 3 (16/03/2022)
-Continueing on my CodeCademy with linear regression. It introduced the concepts of gradient descent and manually writing methods to calculate this, before showing the concepts repeated more easily in Scikit-Learn.
+Continuing on my CodeCademy with linear regression. It introduced the concepts of gradient descent and manually writing methods to calculate this, before showing the concepts repeated more easily in Scikit-Learn.
+(https://github.com/mplockhart/66days/blob/main/codecademy_learning/linear_regression.ipynb)
