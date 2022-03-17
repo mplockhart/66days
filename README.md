@@ -16,3 +16,10 @@ I moved back to my CodeCademy course where I was introduced to SciPy at the star
 ## Day 3 (16/03/2022)
 Continuing on my CodeCademy with linear regression. It introduced the concepts of gradient descent and manually writing methods to calculate this, before showing the concepts repeated more easily in Scikit-Learn.
 (https://github.com/mplockhart/66days/blob/main/codecademy_learning/linear_regression.ipynb)
+
+
+## Day 4 ( 17/03/2022)
+Through code academy I enhanced my knowledge of linear regression with multiple linear regression where one can fit a line to multiple attributes and use it for prediction.  
+(https://github.com/mplockhart/66days/blob/main/codecademy_learning/multiple_linear_regression.ipynb)
+I also began the 'Yelp' data science portfolio project. So far I have improted and worked with the data before merging it. Next time I will clean the data, perform eDA and train models.
+(https://github.com/mplockhart/codecademy_projects/blob/main/yelp_regression_project/.ipynb_checkpoints/yelp_regression-checkpoint.ipynb)
