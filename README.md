@@ -32,3 +32,4 @@ The best example was when I was looking at optimising the parameters of the new 
 
 ## Day 6 (19/03/2022)
 Today I used EDA and regression models to look at the prediction power of single, double and multiple linear regression models. IT was useful to generate a for loop to iterate through all of the individual features to see which had highest correlation. the ultimate prediction models was using all of the features, even though some contributed only a little.
+(https://github.com/mplockhart/codecademy_projects/blob/main/tennis_ace_starting/tennis_ace.ipynb)
