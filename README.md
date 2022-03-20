@@ -33,3 +33,10 @@ The best example was when I was looking at optimising the parameters of the new 
 ## Day 6 (19/03/2022)
 Today I used EDA and regression models to look at the prediction power of single, double and multiple linear regression models. IT was useful to generate a for loop to iterate through all of the individual features to see which had highest correlation. the ultimate prediction models was using all of the features, even though some contributed only a little.
 (https://github.com/mplockhart/codecademy_projects/blob/main/tennis_ace_starting/tennis_ace.ipynb)
+
+## Day 7 (20/03/2022)
+This was a relatively short day but I did learn avout k-nearest neighboursand the requirement to normalise data. Initially this was a min-max normalisation to give a value between 0 and 1:  
+(value - minimum)/(maximum - minimum)
+As usual, this was initially implemented manually through a function.  
+Next it was to define the nearest neighbours using Pythagoras' formula for any number of dimensions and slice the resulting data list using 'k'.
+Finally the classification method uses all of the above to look how an unknow film is compared to labelled data. IT was also useful so know that id there isa tie with an even number of 'k', it is often said that the first point can be used to break the tie.
