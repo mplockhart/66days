@@ -29,14 +29,31 @@ Having only scratched the surface of yesterday's Yelp analysis I finisdhed it to
 The best example was when I was looking at optimising the parameters of the new shop at the end of the project I noticed that by changing the 'number of review' and increasing them by one order of magnitude up, the results was > 5, meaning that if the model were correct (which it appeared  to be with an R^2 > 0.7) the shop was well placed to have a high rating if the reviews kept coming in.
 (https://github.com/mplockhart/codecademy_projects/blob/main/yelp_regression_project/.ipynb_checkpoints/yelp_regression-checkpoint.ipynb)
 
-
 ## Day 6 (19/03/2022)
 Today I used EDA and regression models to look at the prediction power of single, double and multiple linear regression models. IT was useful to generate a for loop to iterate through all of the individual features to see which had highest correlation. the ultimate prediction models was using all of the features, even though some contributed only a little.
 (https://github.com/mplockhart/codecademy_projects/blob/main/tennis_ace_starting/tennis_ace.ipynb)
 
 ## Day 7 (20/03/2022)
 This was a relatively short day but I did learn avout k-nearest neighboursand the requirement to normalise data. Initially this was a min-max normalisation to give a value between 0 and 1:  
-(value - minimum)/(maximum - minimum)
+
+(value - minimum)/(maximum - minimum)  
 As usual, this was initially implemented manually through a function.  
 Next it was to define the nearest neighbours using Pythagoras' formula for any number of dimensions and slice the resulting data list using 'k'.
-Finally the classification method uses all of the above to look how an unknow film is compared to labelled data. IT was also useful so know that id there isa tie with an even number of 'k', it is often said that the first point can be used to break the tie.
+Finally the classification method uses all of the above to look how an unknow film is compared to labelled data. IT was also useful so know that id there is a tie with an even number of 'k', it is often said that the first point can be used to break the tie.
+
+## Day 8 (21/03/2022)
+A continuation of k-nearest neighbours looking for a bad film. While the new James Bond film was shown to be a 'good' film (https://www.imdb.com/title/tt2382320/), The King's Daughter (https://www.imdb.com/title/tt2328678/?ref_=ttls_li_tt) was shown to be a 'bad' film, and boradly agreed with the critics responses.  
+Next was a test to validate the data already curated to see if the ML model was indeed correct, which it appeared to be.  
+The next step was looking at how to define 'k'. This basically comes from the following:  
+### K-nearest neighbours
+### Underfitting
+This is where 'k' is low and not enough neighbours are considered.  
+### Overfitting
+Here 'k' is large and takes in too many neighbours. This could be problematic on a boundary of different data points.  
+### Validation error
+This is the number of correct guesses over the total number of movies. In this case with 3 features it was 66%.
+### Graph of K
+This is used to graph the optimum number of K by running the method multiple times.
+
+
+As per usual, the lessons conclude with the sklearn implementation. It goes through the same steps of fit, and then predict to get the trained results. 
