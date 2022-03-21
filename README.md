@@ -46,10 +46,10 @@ A continuation of k-nearest neighbours looking for a bad film. While the new Jam
 Next was a test to validate the data already curated to see if the ML model was indeed correct, which it appeared to be.  
 The next step was looking at how to define 'k'. This basically comes from the following:  
 ### K-nearest neighbours
-### Underfitting
-This is where 'k' is low and not enough neighbours are considered.  
 ### Overfitting
-Here 'k' is large and takes in too many neighbours. This could be problematic on a boundary of different data points.  
+This is where 'k' is low and not enough neighbours are considered. K is too small so outliers dominate the result.  
+### Under fitting
+Here 'k' is large and takes in too many neighbours. This could be problematic on a boundary of different data points. k is too big so larger trends in the data set aren't represented.  
 ### Validation error
 This is the number of correct guesses over the total number of movies. In this case with 3 features it was 66%.
 ### Graph of K
