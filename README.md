@@ -56,4 +56,4 @@ This is the number of correct guesses over the total number of movies. In this c
 This is used to graph the optimum number of K by running the method multiple times.
 
 
-As per usual, the lessons conclude with the sklearn implementation. It goes through the same steps of fit, and then predict to get the trained results. 
+As per usual, the lessons conclude with the sklearn implementation (https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html). It goes through the same steps of fit, and then predict to get the trained results. 
