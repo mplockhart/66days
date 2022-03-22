@@ -55,5 +55,16 @@ This is the number of correct guesses over the total number of movies. In this c
 ### Graph of K
 This is used to graph the optimum number of K by running the method multiple times.
 
-
 As per usual, the lessons conclude with the sklearn implementation (https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html). It goes through the same steps of fit, and then predict to get the trained results. 
+
+## Day 9 (22/03/2022)
+Finalising the KNN section of the course. It involved the usage of a project data set for breat cancer diagnosis. The data had many (~30) attributes and >500 readings of cells. The KNN was initially selected with K=3, but then a look was used to calculate the best result. This was ~22 and showed accuracy of >96% (https://github.com/mplockhart/codecademy_projects/blob/main/breast_cancer_knn/breast_cancer_knn.ipynb).
+
+### KNN as a regressor
+This was the final part of the section, where instead of classsification with KNN, it was used as a predictor.  
+
+The use of weighted averages when calculating distance to neighbours can be used to weight the closer neighbours higher than those further away.  
+
+For example, the numerator is the sum of every rating divided by their respective distances. The denominator is the sum of one over every distance (https://www.codecademy.com/paths/data-science/tracks/dscp-foundations-of-machine-learning-supervised-learning/modules/dscp-supervised-learning-introduction-to-classification-with-k-nearest-neighbors/lessons/ml-knn-regression/exercises/weighted-regression). This was initially calculated by manually generating methods before uasing sklearn.
+
+The difference with sklearn is that the command now adds `KNeighborsRegressor(n_neighbors = 3, weights = "distance")` when we create the regressor.
