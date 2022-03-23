@@ -71,6 +71,7 @@ The difference with sklearn is that the command now adds `KNeighborsRegressor(n_
 
 
 ## Day 10 (23/03/2022)[2 years since lockdown started]
+## Analysing model performance
 Today is a look at evaluating and improving he models that have been made. Methods to do this include, accuracy, precision, recall and F1 score.
 
 ### Accuracy
@@ -106,3 +107,5 @@ The F1 score combines both precision and recall into a single statistic. We use 
 
 ### sklearn
 sklearn is able to calculate all of these metrics using `sklearn.metrics` and importing the corresponding required scoring metrics. They require a list of the correct labels and guesses. 
+
+## Data Analysts Project
