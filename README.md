@@ -68,3 +68,41 @@ The use of weighted averages when calculating distance to neighbours can be used
 For example, the numerator is the sum of every rating divided by their respective distances. The denominator is the sum of one over every distance (https://www.codecademy.com/paths/data-science/tracks/dscp-foundations-of-machine-learning-supervised-learning/modules/dscp-supervised-learning-introduction-to-classification-with-k-nearest-neighbors/lessons/ml-knn-regression/exercises/weighted-regression). This was initially calculated by manually generating methods before uasing sklearn.
 
 The difference with sklearn is that the command now adds `KNeighborsRegressor(n_neighbors = 3, weights = "distance")` when we create the regressor.
+
+
+## Day 10 (23/03/2022)[2 years since lockdown started]
+Today is a look at evaluating and improving he models that have been made. Methods to do this include, accuracy, precision, recall and F1 score.
+
+### Accuracy
+The simplest way of reporting the effectiveness of an algorithm is by calculating its accuracy. Accuracy is calculated by finding the total number of correctly classified points and dividing by the total number of points. This includes `TRUE POSITIVE + TRUE NEGATIVE as the numeator and TOTAL RESULTS` as the denominator.
+
+### Recall
+Accuracy can be an extremely misleading statistic depending on your data. Consider the example of an algorithm that is trying to predict whether or not there will be over 3 feet of snow on the ground tomorrow. We can write a pretty accurate classifier right now: always predict False. This classifier will be incredibly accurate — there are hardly ever many days with that much snow. But this classifier never finds the information we’re actually interested in.
+
+In this situation, the statistic that would be helpful is recall. Recall measures the percentage of relevant items that your classifier found. In this example, recall is the number of snow days the algorithm correctly predicted divided by the total number of snow days. This is `TRUE POSITIVES over TRUE POSITIVES + FALSE NEGATIVES`.
+
+Our algorithm that always predicts False might have a very high accuracy, but it never will find any True Positives, so its recall is 0. This makes sense; recall should be very low for such an absurd classifier.
+
+### Precision
+Unfortunately, recall isn’t a perfect statistic either. For example, we could create a snow day classifier that always returns True. This would have low accuracy, but its recall would be 1 because it would be able to accurately find every snow day. But this classifier is just as nonsensical as the one before! The statistic that will help demonstrate that this algorithm is flawed is precision.
+
+In the snow day example, precision is the number of snow days the algorithm correctly predicted divided by the number of times it predicted there would be a snow day. This is `TRUE POSITIVES iver TRUE POSITIVES + FALSE POSITIVES`.
+
+The algorithm that predicts every day is a snow day has recall of 1, but it will have very low precision. It correctly predicts every snow day, but there are tons of false positives as well. **Precision and recall are statistics that are on opposite ends of a scale. If one goes down, the other will go up.**
+
+### F1 Score
+It is useful to consider the precision and recall of an algorithm, however, we still don’t have one number that can sufficiently describe how effective our algorithm is. This is the job of the F1 score — F1 score is the harmonic mean of precision and recall. The harmonic mean of a group of numbers is a way to average them together. That is `2 * ((PRECISION * RECALL) / (PRECISION + RECALL))`.
+
+The F1 score combines both precision and recall into a single statistic. We use the harmonic mean rather than the traditional arithmetic mean because we want the F1 score to have a low value when either precision or recall is 0. For example, consider a classifier where `recall = 1` and precision = `0.01`. We know that there is most likely a problem with this classifier since the precision is so low, and so we want the F1 score to reflect that. Using the *arithmetic mean* we would get `(1+ 0.01) / 2 = 0.505` which is too high. The *harmonic mean* is `2* (1*0.01) / (1+0.01) = 0.019` which represents this lower precision.
+
+### Overall
+- Classifying a single point can result in a true positive (truth = 1, guess = 1), a true negative (truth = 0, guess = 0), a false positive (truth = 0, guess = 1), or a false negative (truth = 1, guess = 0).
+- Accuracy measures how many classifications your algorithm got correct out of every classification it made.
+- Recall measures the percentage of the relevant items your classifier was able to successfully find.
+- Precision measures the percentage of items your classifier found that were actually relevant.
+- Precision and recall are tied to each other. As one goes up, the other will go down.
+- F1 score is a combination of precision and recall.
+- F1 score will be low if either precision or recall is low.
+
+### sklearn
+sklearn is able to calculate all of these metrics using `sklearn.metrics` and importing the corresponding required scoring metrics. They require a list of the correct labels and guesses. 
