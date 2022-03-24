@@ -131,3 +131,17 @@ Here are some examples where the groups are not independent:
 
 the number of goals scored per soccer player before, during, and after undergoing a rigorous training regimen (not independent because the same players are measured in each category)
 years of schooling completed by a group of adults compared to their parents (not independent because kids and their parents can influence one another)
+
+## Chi squared test
+Before we use a Chi-Square test, we need to be sure that the following things are true:  
+
+1. The observations should be independently randomly sampled from the population  
+This is also true of 2-sample t-tests, ANOVA, and Tukey. The purpose of this assumption is to ensure that the sample is representative of the population of interest.
+
+2. The categories of both variables must be mutually exclusive  
+In other words, individual observations should only fall into one category per variable. This means that categorical variables like “college major”, where students can have multiple different college majors, would not be appropriate for a Chi-Square test.
+
+3. The groups should be independent  
+Similar to 2-sample t-tests, ANOVA, and Tukey, a Chi-Square test also shouldn’t be used if either of the categorical variables splits observations into groups that can influence one another. For example, a Chi-Square test would not be appropriate if one of the variables represents three different time points.
+
+
