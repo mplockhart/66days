@@ -108,4 +108,6 @@ The F1 score combines both precision and recall into a single statistic. We use 
 ### sklearn
 sklearn is able to calculate all of these metrics using `sklearn.metrics` and importing the corresponding required scoring metrics. They require a list of the correct labels and guesses. 
 
+# Day 11 (24/03/2022)
 ## Data Analysts Project
+This was a project from Codecademy where atatistical tests were combined to observe if the cohort studied were statistically different from each other, in terms of cholesterol levels of people with heart disease being greater than the upperhealthy limit (1 sample t-test), and seeing if the cohots was representative of the general population with regards to their fasting blood sugar levels using a binomial test (they were not). This can be found (https://github.com/mplockhart/codecademy_projects/blob/main/Heart_Disease_Research_Part_I/heart_disease_1.ipynb).
