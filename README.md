@@ -112,6 +112,8 @@ sklearn is able to calculate all of these metrics using `sklearn.metrics` and im
 ## Data Analysts Project
 This was a project from Codecademy where atatistical tests were combined to observe if the cohort studied were statistically different from each other, in terms of cholesterol levels of people with heart disease being greater than the upperhealthy limit (1 sample t-test), and seeing if the cohots was representative of the general population with regards to their fasting blood sugar levels using a binomial test (they were not). This can be found (https://github.com/mplockhart/codecademy_projects/blob/main/Heart_Disease_Research_Part_I/heart_disease_1.ipynb).
 
+I also finalised the second project which used the same data set but used the below tests (https://github.com/mplockhart/codecademy_projects/blob/main/Heart_Disease_Research_Part_I/heart_disease_2.ipynb).
+
 ## Hypothesis testing (t-test, ANOVA, or Tukey’s range test)
 Before we use a two sample t-test, ANOVA, or Tukey’s range test, we need to be sure that the following things are true:
 
