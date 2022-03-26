@@ -147,9 +147,10 @@ In other words, individual observations should only fall into one category per v
 Similar to 2-sample t-tests, ANOVA, and Tukey, a Chi-Square test also shouldn’t be used if either of the categorical variables splits observations into groups that can influence one another. For example, a Chi-Square test would not be appropriate if one of the variables represents three different time points.
 
 # Day 12 (25/03/2022)
-I completed several projects utilising hypothesis testing. These included a theoretical start up called Familiar selling blood transfusions and looking to see if there was a significant difference between the packs sold and the lifespan of the recipients. 
+I completed several projects utilising hypothesis testing. These included a theoretical start up called Familiar selling blood transfusions and looking to see if there was a significant difference between the packs sold and the lifespan of the recipients.
 
-## Familiar (https://github.com/mplockhart/codecademy_projects/blob/main/familiar-blood_transfusion-hypothesis_testing/familiar-blood_transfusion.ipynb)
+## Familiar
+(https://github.com/mplockhart/codecademy_projects/blob/main/familiar-blood_transfusion-hypothesis_testing/familiar-blood_transfusion.ipynb)
 ### 1 sample t-test
 This was to compare the vein transfusion pack to 73 years of age using a one sample t-test due to there being only one data source compared against a fixed value. This was significant with a 0.05 cutoff.
 ### Independant t-test
@@ -157,4 +158,18 @@ This was to compare the lifespan of the vein pack to that of the upgraded artery
 ### Chi2 test
 Determining if there is an association between the different packs and the iron levels of the patients using  chi^2 contingency test.
 
-## 
+## Fetch Maker
+https://github.com/mplockhart/codecademy_projects/blob/main/fetchmaker-hypothesis_testing/fetchmaker.ipynb
+This again used various hypothesis tests to compare characteristics of dogs.
+
+### Binomial testing
+We wanted to see if our sample of whippets that were rescue dogs were representative of the global population of whippets that have a rate of 8%. Because this was a comparison of a catagorical (rescue vs non-rescue) we used a binomial test.
+
+### ANOVA and Tukey
+The next example was to compare the weight (mass) of the dogs in the 'whippet, terrier, pitbull' category. The null hypothesis is that the dogs were all the same weight on average. This was shown not to be true by ANOVA and to see which breeds were significantly differernt we used Tukey to compare.
+
+### Chi squared
+We finalised by looking at the association of dog breeds and colour. The breeds here are shihtzu and poodle.
+
+## Analyzing Farmburg's A/B Test
+This final one was interesting and has an interesting twist. It involves A/B testing with three groups based on costs of new items on the farm simulation game. 
