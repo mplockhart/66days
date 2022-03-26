@@ -173,3 +173,19 @@ We finalised by looking at the association of dog breeds and colour. The breeds 
 
 ## Analyzing Farmburg's A/B Test
 This final one was interesting and has an interesting twist. It involves A/B testing with three groups based on costs of new items on the farm simulation game. 
+
+### Chi squares test
+Here 'Brian' uses a chi squared test to compare the differences of A, B and C because this would show which option would be better. 
+
+It then turns out that while this was sound it was not business sound. We needed to see if the $0.99, $1.99 or $4.99 prices with the new purchase rates are viable. Here we thing around $1000 is required per week to make this viable. While it seems redundant that the $0.99 would have significantly higher sales, does it make enough money.
+
+### Binomial testing
+From here we needed to determine how many sales at each price point are required, how big the sample sizes are and run a binomial test on each to see if the amount sold was significantly higher than the proportion needed to break even for $1000.
+
+Surprisingly it was the most expensive option that made most business sense. While the fewest people purchased it, the numbers were significantly higher than were needed to break $1000.
+
+## Interview
+I had a preliminary interview for a role as a DS with UCAS. Next is the numerical reasoning test.
+
+# Day 13 (26/03/2022)
+Moving back onto the machine learning aspect of DS I started with logistic regression.
