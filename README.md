@@ -146,4 +146,15 @@ In other words, individual observations should only fall into one category per v
 3. The groups should be independent  
 Similar to 2-sample t-tests, ANOVA, and Tukey, a Chi-Square test also shouldn’t be used if either of the categorical variables splits observations into groups that can influence one another. For example, a Chi-Square test would not be appropriate if one of the variables represents three different time points.
 
+# Day 12 (25/03/2022)
+I completed several projects utilising hypothesis testing. These included a theoretical start up called Familiar selling blood transfusions and looking to see if there was a significant difference between the packs sold and the lifespan of the recipients. 
 
+## Familiar (https://github.com/mplockhart/codecademy_projects/blob/main/familiar-blood_transfusion-hypothesis_testing/familiar-blood_transfusion.ipynb)
+### 1 sample t-test
+This was to compare the vein transfusion pack to 73 years of age using a one sample t-test due to there being only one data source compared against a fixed value. This was significant with a 0.05 cutoff.
+### Independant t-test
+This was to compare the lifespan of the vein pack to that of the upgraded artery pack. This was a comparing 2 different independent data sets so the independent t-test.
+### Chi2 test
+Determining if there is an association between the different packs and the iron levels of the patients using  chi^2 contingency test.
+
+## 
