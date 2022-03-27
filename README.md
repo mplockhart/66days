@@ -189,3 +189,7 @@ I had a preliminary interview for a role as a DS with UCAS. Next is the numerica
 
 # Day 13 (26/03/2022)
 Moving back onto the machine learning aspect of DS I started with logistic regression. This was a quick introduction due to time constraints but I went through the initial information of how it was different to logistic regression. The main difference is tha tit is a classified with a binary probability. This comes from the sigmoidal function applied rather than a linear regression line which will give values that will ultimately go to +/1 infinity. One readon this is bad is that a question could be "If I study for 10 hours will I become a data scientist?". The answer is yes or no (simplistically), which is 0 or 1. Depending on other labelled values 10 hours of study could equal -50, which is in effect 0, or +50, which is in effect 1, but if there are middling values it doesn't take that into account.
+
+# Day 14 (27/03/2022)
+Today was another short day. I took some time to go back through my own data analysis if my golf shots to see if there were any methological improvements or general ones to make. As it happened I noticed sever mistakes in my data input. This was a mistake with dropping in Excel, which propagated to the CSV file. This was corrected. I also looked more into the distributions of my golf shots. My last 2 sessions with my 5i we no longer statistically different. I need to expand this work to my other clubs and dates when possible. 
+https://github.com/mplockhart/golf_stats/blob/main/hooked_shots_high_legh.ipynb
