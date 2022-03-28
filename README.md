@@ -193,3 +193,14 @@ Moving back onto the machine learning aspect of DS I started with logistic regre
 # Day 14 (27/03/2022)
 Today was another short day. I took some time to go back through my own data analysis if my golf shots to see if there were any methological improvements or general ones to make. As it happened I noticed sever mistakes in my data input. This was a mistake with dropping in Excel, which propagated to the CSV file. This was corrected. I also looked more into the distributions of my golf shots. My last 2 sessions with my 5i we no longer statistically different. I need to expand this work to my other clubs and dates when possible. 
 https://github.com/mplockhart/golf_stats/blob/main/hooked_shots_high_legh.ipynb
+
+# Day 15 (28/09/2022)
+Building on the logisitc regression I finished the Codecademy section and tried out some project work
+
+## Logistic regression - Breast cancer
+This was loaded from the sklearn modules. The data were standardised using the standard scalar ((x - mean) / standard deviation). This is becuase the logistic regression ML models require normalisaiton. All of the data were used and the nsplit to X and y. This was then split to train test sets using sklearn's model selection module before creating the model, fitting it to the data and the npredicting the outcomes from the test set.
+
+The confusion matrix was introduced heren and provided information of the true and false positives and negatives. This was interesting and very applicable.
+https://github.com/mplockhart/66days/blob/main/codecademy_learning/logistic_regression.ipynb
+
+## Logistic regression - Titanic project 
