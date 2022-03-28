@@ -204,3 +204,17 @@ The confusion matrix was introduced heren and provided information of the true a
 https://github.com/mplockhart/66days/blob/main/codecademy_learning/logistic_regression.ipynb
 
 ## Logistic regression - Titanic project 
+It was enjoyable to use a real world example of data to see how a simple system such as logistic regression could predict the outcome so well.
+https://github.com/mplockhart/codecademy_projects/blob/main/titanic_logistic_regression/titanic_survival_prediction.ipynb
+
+In addition to the breast cancer data, there were missing data here whic hrequired clearning, and the construction of new data points such as 'FirstClass' and 'SecondClass' columns.
+
+The data were forst split to the train test data before fitting the scalar to the X_train and transforming the X_test data. The logistic regression model were fitted and the score of the train model Vs the test mode were show nto be ~ 0.77 Vs 0.84. The coefficients were then printed out and it showed that sex was the more most important identity. Thinking of the stories of the Ttianic this makes sense.
+
+Having a prediction mode I could then add my own data for precition.
+jack = np.array([0., 20., 0., 0.])  
+rose = np.array([1., 17., 1., 0.])  
+mike = np.array([0., 32., 1., 0.])  
+ali = np.array([1., 30., 0., 1.])  
+
+These needed to be combines to a NumPy array and then applied to the model. Broadly, if you were a man you would die, but I did print the probabilities and saw that first class men were ~50:50.
