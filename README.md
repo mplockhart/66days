@@ -211,7 +211,7 @@ In addition to the breast cancer data, there were missing data here whic hrequir
 
 The data were forst split to the train test data before fitting the scalar to the X_train and transforming the X_test data. The logistic regression model were fitted and the score of the train model Vs the test mode were show nto be ~ 0.77 Vs 0.84. The coefficients were then printed out and it showed that sex was the more most important identity. Thinking of the stories of the Ttianic this makes sense.
 
-Having a prediction mode I could then add my own data for precition.
+Having a prediction mode I could then add my own data for precition.  
 jack = np.array([0., 20., 0., 0.])  
 rose = np.array([1., 17., 1., 0.])  
 mike = np.array([0., 32., 1., 0.])  
