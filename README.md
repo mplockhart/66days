@@ -218,3 +218,20 @@ mike = np.array([0., 32., 1., 0.])
 ali = np.array([1., 30., 0., 1.])  
 
 These needed to be combines to a NumPy array and then applied to the model. Broadly, if you were a man you would die, but I did print the probabilities and saw that first class men were ~50:50.
+
+# Day 16 (29/03/2022)
+Today was a tough one. I have always struggled to get me head around Bayes theorem. Bayes probability overall looks like:
+
+<img src="https://latex.codecogs.com/svg.image?P(A|B)&space;=&space;\frac{P(B|A).P(A)}{P(B)}">
+
+I just need to spend time making asure I know how to calculate each of these problems.
+
+# Day 17 (30/03/2022)
+Today I spent time looking at more Bayes work and sitting to hand write a lot of examples out. 
+
+## Testing
+In additiona I completed the RANRA as part of a job application to UCAS. This was not too taxing although I was quite unprepeared for the type of question so I am unsure of what the results will hold.
+
+## Writing equations in GitHub
+After finding that standard LaTeX doesn't work I followed the advice [here](https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b) to use a URL generator such as [this](https://latex.codecogs.com/). This has made life much easier. I need to go back and adapt some notes.
+
