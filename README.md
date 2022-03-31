@@ -235,3 +235,13 @@ In additiona I completed the RANRA as part of a job application to UCAS. This wa
 ## Writing equations in GitHub
 After finding that standard LaTeX doesn't work I followed the advice [here](https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b) to use a URL generator such as [this](https://latex.codecogs.com/). This has made life much easier. I need to go back and adapt some notes.
 
+# Day 18 (31/03/2022)
+In my day job as a scientist, I work with all sorts of data. Today I was wanting to replot a graph from an output and use the slope and the intercept to predict resolution or numbers of particles required.  
+Briefly, this consisted of:
+- Importing the data 
+- Transforming the x-axis by taking the log10 of each value
+- Inverting the y-axis values
+- Training a linear regression model on the highest resolution elements from te y-axis values
+- Using the coefficients and the intercept, calculate the numberof particles, or resolution able to be obtained given the resolution required, or particles obtained.
+https://github.com/mplockhart/academic_explore/blob/main/reslog/reslog_linear_regression.ipynb
+- 
