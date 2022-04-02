@@ -244,4 +244,8 @@ Briefly, this consisted of:
 - Training a linear regression model on the highest resolution elements from te y-axis values
 - Using the coefficients and the intercept, calculate the numberof particles, or resolution able to be obtained given the resolution required, or particles obtained.
 https://github.com/mplockhart/academic_explore/blob/main/reslog/reslog_linear_regression.ipynb
-- 
+
+# Day 19 (01/04/2022)
+I missed this day travelling on holidays.
+
+# Day 20 (02/04/2022)
