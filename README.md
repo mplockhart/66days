@@ -218,3 +218,34 @@ mike = np.array([0., 32., 1., 0.])
 ali = np.array([1., 30., 0., 1.])  
 
 These needed to be combines to a NumPy array and then applied to the model. Broadly, if you were a man you would die, but I did print the probabilities and saw that first class men were ~50:50.
+
+# Day 16 (29/03/2022)
+Today was a tough one. I have always struggled to get me head around Bayes theorem. Bayes probability overall looks like:
+
+<img src="https://latex.codecogs.com/svg.image?P(A|B)&space;=&space;\frac{P(B|A).P(A)}{P(B)}">
+
+I just need to spend time making asure I know how to calculate each of these problems.
+
+# Day 17 (30/03/2022)
+Today I spent time looking at more Bayes work and sitting to hand write a lot of examples out. 
+
+## Testing
+In additiona I completed the RANRA as part of a job application to UCAS. This was not too taxing although I was quite unprepeared for the type of question so I am unsure of what the results will hold.
+
+## Writing equations in GitHub
+After finding that standard LaTeX doesn't work I followed the advice [here](https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b) to use a URL generator such as [this](https://latex.codecogs.com/). This has made life much easier. I need to go back and adapt some notes.
+
+# Day 18 (31/03/2022)
+In my day job as a scientist, I work with all sorts of data. Today I was wanting to replot a graph from an output and use the slope and the intercept to predict resolution or numbers of particles required.  
+Briefly, this consisted of:
+- Importing the data 
+- Transforming the x-axis by taking the log10 of each value
+- Inverting the y-axis values
+- Training a linear regression model on the highest resolution elements from te y-axis values
+- Using the coefficients and the intercept, calculate the numberof particles, or resolution able to be obtained given the resolution required, or particles obtained.
+https://github.com/mplockhart/academic_explore/blob/main/reslog/reslog_linear_regression.ipynb
+
+# Day 19 (01/04/2022)
+I missed this day travelling on holidays.
+
+# Day 20 (02/04/2022)
