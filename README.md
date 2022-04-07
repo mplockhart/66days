@@ -251,5 +251,8 @@ I missed this day travelling on holidays.
 # Day 20 (02/04/2022) - Day 22 (04/04/2022)
 I was doing some work to make sure I knew how to comprehend Bayes probability but I had little time on holiday.
 
-# Day 21 (05/04/2022)
+# Day 23 (06/04/2022)
 https://github.com/mplockhart/66days/blob/main/codecademy_learning/bayes_theorem.ipynb
+
+# day 24 (07/04/2022)
+Today was a busy day, including a 1:30 interview for a data science position so I too kthe night off.
